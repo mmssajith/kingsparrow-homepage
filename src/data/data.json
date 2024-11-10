@@ -1,21 +1,21 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Innovative Software Solutions for Your Business",
+    "paragraph": "We deliver cutting-edge software development services that transform your ideas into powerful digital solutions. Our expert team combines technical excellence with industry best practices to create scalable, secure, and user-friendly applications that drive business growth."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "We are a passionate team of software developers dedicated to crafting exceptional digital experiences. With years of industry experience, we combine technical expertise with creative problem-solving to deliver solutions that exceed expectations. Our commitment to quality and innovation has made us a trusted partner for businesses across various sectors.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Experienced development team",
+      "Custom-tailored solutions",
+      "Agile development process",
+      "24/7 technical support"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Competitive pricing",
+      "On-time delivery",
+      "Scalable architecture",
+      "Ongoing maintenance"
     ]
   },
   "Gallery": [
@@ -67,34 +67,34 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-code",
+      "name": "Custom Software Development",
+      "text": "We build tailored software solutions that perfectly align with your business needs. Our expert developers create scalable, secure, and efficient applications using cutting-edge technologies."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-mobile",
+      "name": "Mobile App Development",
+      "text": "Transform your ideas into powerful mobile applications. We deliver native and cross-platform solutions for iOS and Android, ensuring optimal performance and user experience."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-cloud",
+      "name": "Cloud Solutions",
+      "text": "Leverage the power of cloud computing with our comprehensive cloud services. We offer cloud migration, deployment, and management solutions to enhance your business scalability."
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-cogs",
+      "name": "DevOps Services",
+      "text": "Streamline your development and operations with our DevOps expertise. We implement continuous integration, automated testing, and deployment pipelines for faster delivery."
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-shield",
+      "name": "Cybersecurity Solutions",
+      "text": "Protect your digital assets with our comprehensive security services. We implement robust security measures, conduct vulnerability assessments, and ensure compliance with industry standards."
     },
     {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-line-chart",
+      "name": "Data Analytics",
+      "text": "Transform your data into actionable insights. We develop custom analytics solutions, implement data visualization tools, and create predictive models to drive informed decision-making."
     }
   ],
   "Testimonials": [
@@ -131,30 +131,15 @@
   ],
   "Team": [
     {
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
-    },
-    {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "img": "https://scontent-sin6-1.xx.fbcdn.net/v/t39.30808-6/447960244_1002590154794826_464248900174607869_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=urUwnwJqqQUQ7kNvgECxicA&_nc_zt=23&_nc_ht=scontent-sin6-1.xx&_nc_gid=AUpLwP3yoFJ_WKwBMK2XEZ-&oh=00_AYDpXBv1NTpzHxUQOwAzQluCWz6EuzwxJl37-KoCY2gUYg&oe=67365CFD",
+      "name": "MK. Mohamed Nowfal",
+      "job": "Managing Director"
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
+    "address": "Main Street, Oddamavadi. Sri Lanka",
+    "phone": "+94 75 055 0660",
+    "email": "nowfar@kingsparrowgroups.com",
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
@@ -162,23 +147,23 @@
   "Features": [
     {
       "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "24/7 Support",
+      "text": "Our dedicated support team is available round the clock to assist you with any technical issues or queries, ensuring smooth operation of your systems."
     },
     {
       "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Clear Communication",
+      "text": "We maintain transparent communication throughout project development, providing regular updates and ensuring your requirements are met at every stage."
     },
     {
       "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Expert Team",
+      "text": "Our team of skilled developers, designers, and project managers brings years of experience in delivering high-quality software solutions across industries."
     },
     {
       "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Innovative Solutions",
+      "text": "We leverage cutting-edge technologies and best practices to create innovative solutions that give your business a competitive edge in the digital landscape."
     }
   ]
 }
