@@ -1,5 +1,4 @@
 import { useState } from "react";
-import emailjs from "emailjs-com";
 import React from "react";
 
 const initialState = {
@@ -8,33 +7,6 @@ const initialState = {
   message: "",
 };
 export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState);
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setState((prevState) => ({ ...prevState, [name]: value }));
-  };
-  const clearState = () => setState({ ...initialState });
-  
-  
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(name, email, message);
-    
-    {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
-    
-    emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
-      .then(
-        (result) => {
-          console.log(result.text);
-          clearState();
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  };
   return (
     <div>
       <div id="contact">
@@ -48,7 +20,12 @@ export const Contact = (props) => {
                   get back to you as soon as possible.
                 </p>
               </div>
-              <form name="sentMessage" validate onSubmit={handleSubmit}>
+              <form
+                name="sentMessage"
+                validate
+                action="https://formsubmit.co/nowfar@kingsparrowgroups.com"
+                method="POST"
+                className="space-y-4">
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
@@ -59,7 +36,6 @@ export const Contact = (props) => {
                         className="form-control"
                         placeholder="Name"
                         required
-                        onChange={handleChange}
                       />
                       <p className="help-block text-danger"></p>
                     </div>
@@ -73,7 +49,6 @@ export const Contact = (props) => {
                         className="form-control"
                         placeholder="Email"
                         required
-                        onChange={handleChange}
                       />
                       <p className="help-block text-danger"></p>
                     </div>
@@ -87,7 +62,6 @@ export const Contact = (props) => {
                     rows="4"
                     placeholder="Message"
                     required
-                    onChange={handleChange}
                   ></textarea>
                   <p className="help-block text-danger"></p>
                 </div>
