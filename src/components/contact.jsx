@@ -1,11 +1,5 @@
-import { useState } from "react";
 import React from "react";
 
-const initialState = {
-  name: "",
-  email: "",
-  message: "",
-};
 export const Contact = (props) => {
   return (
     <div>
